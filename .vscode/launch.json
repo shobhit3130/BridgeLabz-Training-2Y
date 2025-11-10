@@ -1,0 +1,636 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach by com.sun.jdi.SharedMemoryListen",
+            "type": "jdk",
+            "request": "attach",
+            "listen": "true"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Add",
+            "request": "launch",
+            "mainClass": "Add",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "AnagramChecker",
+            "request": "launch",
+            "mainClass": "AnagramChecker",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "Area",
+            "request": "launch",
+            "mainClass": "Area",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "AthleteRun",
+            "request": "launch",
+            "mainClass": "AthleteRun",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "BMICalculator",
+            "request": "launch",
+            "mainClass": "BMICalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "BMICalculator2D",
+            "request": "launch",
+            "mainClass": "BMICalculator2D",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "BasicCalculator",
+            "request": "launch",
+            "mainClass": "BasicCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CalendarDisplay",
+            "request": "launch",
+            "mainClass": "CalendarDisplay",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CardGame",
+            "request": "launch",
+            "mainClass": "CardGame",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CharArrayCompare",
+            "request": "launch",
+            "mainClass": "CharArrayCompare",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CharFrequency",
+            "request": "launch",
+            "mainClass": "CharFrequency",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CharacterClassifier",
+            "request": "launch",
+            "mainClass": "CharacterClassifier",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "ChocolateDivision",
+            "request": "launch",
+            "mainClass": "ChocolateDivision",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CourseFeeCalculator",
+            "request": "launch",
+            "mainClass": "CourseFeeCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "CustomMultiplicationTable",
+            "request": "launch",
+            "mainClass": "CustomMultiplicationTable",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DigitAnalyzer",
+            "request": "launch",
+            "mainClass": "DigitAnalyzer",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DigitFrequency",
+            "request": "launch",
+            "mainClass": "DigitFrequency",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DiscountCalculator",
+            "request": "launch",
+            "mainClass": "DiscountCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DistanceConverter",
+            "request": "launch",
+            "mainClass": "DistanceConverter",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DivisionCalculator",
+            "request": "launch",
+            "mainClass": "DivisionCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DoubleOpt",
+            "request": "launch",
+            "mainClass": "DoubleOpt",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "DynamicDigitAnalyzer",
+            "request": "launch",
+            "mainClass": "DynamicDigitAnalyzer",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "EarthVolume",
+            "request": "launch",
+            "mainClass": "EarthVolume",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "EvenOdd",
+            "request": "launch",
+            "mainClass": "EvenOdd",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "FactorCalculator",
+            "request": "launch",
+            "mainClass": "FactorCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "FactorFinder",
+            "request": "launch",
+            "mainClass": "FactorFinder",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "FirstUniqueChar",
+            "request": "launch",
+            "mainClass": "FirstUniqueChar",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzzArray",
+            "request": "launch",
+            "mainClass": "FizzBuzzArray",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "FriendStats",
+            "request": "launch",
+            "mainClass": "FriendStats",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "FriendsCheck",
+            "request": "launch",
+            "mainClass": "FriendsCheck",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "HandshakeCalculator",
+            "request": "launch",
+            "mainClass": "HandshakeCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "HarryAgeCalculator",
+            "request": "launch",
+            "mainClass": "HarryAgeCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "HeightConverter",
+            "request": "launch",
+            "mainClass": "HeightConverter",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "IntOperation",
+            "request": "launch",
+            "mainClass": "IntOperation",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "KmToMilesConverter",
+            "request": "launch",
+            "mainClass": "KmToMilesConverter",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "LeapYearChecker",
+            "request": "launch",
+            "mainClass": "LeapYearChecker",
+            "projectName": "LeapYearChecker"
+        },
+        {
+            "type": "java",
+            "name": "LowercaseCompare",
+            "request": "launch",
+            "mainClass": "LowercaseCompare",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "ManualTrim",
+            "request": "launch",
+            "mainClass": "ManualTrim",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "MatrixToArray",
+            "request": "launch",
+            "mainClass": "MatrixToArray",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "NestedLoopFrequency",
+            "request": "launch",
+            "mainClass": "NestedLoopFrequency",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "NumberAnalysis",
+            "request": "launch",
+            "mainClass": "NumberAnalysis",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "NumberArrayCheck",
+            "request": "launch",
+            "mainClass": "NumberArrayCheck",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "NumberCheck",
+            "request": "launch",
+            "mainClass": "NumberCheck",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "OddEvenSeparator",
+            "request": "launch",
+            "mainClass": "OddEvenSeparator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeChecker",
+            "request": "launch",
+            "mainClass": "PalindromeChecker",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "PenDistribution",
+            "request": "launch",
+            "mainClass": "PenDistribution",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "PurchaseCalculator",
+            "request": "launch",
+            "mainClass": "PurchaseCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "Quadratic",
+            "request": "launch",
+            "mainClass": "Quadratic",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "QuadraticRoots",
+            "request": "launch",
+            "mainClass": "QuadraticRoots",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "QuotientRemainderCalculator",
+            "request": "launch",
+            "mainClass": "QuotientRemainderCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "RandomNumbers",
+            "request": "launch",
+            "mainClass": "RandomNumbers",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "RandomStats",
+            "request": "launch",
+            "mainClass": "RandomStats",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumberArray",
+            "request": "launch",
+            "mainClass": "ReverseNumberArray",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "RockPaperScissors",
+            "request": "launch",
+            "mainClass": "RockPaperScissors",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SimpleInterestCalculator",
+            "request": "launch",
+            "mainClass": "SimpleInterestCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SmallestLargest",
+            "request": "launch",
+            "mainClass": "SmallestLargest",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SpringSeason",
+            "request": "launch",
+            "mainClass": "SpringSeason",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SquareSideCalculator",
+            "request": "launch",
+            "mainClass": "SquareSideCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "StringCompare",
+            "request": "launch",
+            "mainClass": "StringCompare",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "StringLengthFinder",
+            "request": "launch",
+            "mainClass": "StringLengthFinder",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "StudentGrade2DArray",
+            "request": "launch",
+            "mainClass": "StudentGrade2DArray",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "StudentGradeCalculator",
+            "request": "launch",
+            "mainClass": "StudentGradeCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "StudentScorecard",
+            "request": "launch",
+            "mainClass": "StudentScorecard",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "StudentVoteChecker",
+            "request": "launch",
+            "mainClass": "StudentVoteChecker",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SubstringCompare",
+            "request": "launch",
+            "mainClass": "SubstringCompare",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SumNaturalNumbers",
+            "request": "launch",
+            "mainClass": "SumNaturalNumbers",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SumNaturalRecursion",
+            "request": "launch",
+            "mainClass": "SumNaturalRecursion",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "SumOfNumbers",
+            "request": "launch",
+            "mainClass": "SumOfNumbers",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "TeamBMICalculator",
+            "request": "launch",
+            "mainClass": "TeamBMICalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "TrigonometricFunctions",
+            "request": "launch",
+            "mainClass": "TrigonometricFunctions",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "UniqueCharFrequency",
+            "request": "launch",
+            "mainClass": "UniqueCharFrequency",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "Uniquecharcater",
+            "request": "launch",
+            "mainClass": "Uniquecharcater",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "UppercaseCompare",
+            "request": "launch",
+            "mainClass": "UppercaseCompare",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "Volume",
+            "request": "launch",
+            "mainClass": "Volume",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "VotingEligibility",
+            "request": "launch",
+            "mainClass": "VotingEligibility",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "VowelConsonantCounter",
+            "request": "launch",
+            "mainClass": "VowelConsonantCounter",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "WindChillCalculato",
+            "request": "launch",
+            "mainClass": "WindChillCalculato",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "WordLengthAnalysis",
+            "request": "launch",
+            "mainClass": "WordLengthAnalysis",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "WordLengthTable",
+            "request": "launch",
+            "mainClass": "WordLengthTable",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "WordSplitter",
+            "request": "launch",
+            "mainClass": "WordSplitter",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "ZaraBonusCalculator",
+            "request": "launch",
+            "mainClass": "ZaraBonusCalculator",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "celsius",
+            "request": "launch",
+            "mainClass": "celsius",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "convertdistance",
+            "request": "launch",
+            "mainClass": "convertdistance",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "ipmort",
+            "request": "launch",
+            "mainClass": "ipmort",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "percentage",
+            "request": "launch",
+            "mainClass": "percentage",
+            "projectName": "New folder_71d3158f"
+        },
+        {
+            "type": "java",
+            "name": "profitandloss",
+            "request": "launch",
+            "mainClass": "profitandloss",
+            "projectName": "New folder_71d3158f"
+        }
+    ]
+}
