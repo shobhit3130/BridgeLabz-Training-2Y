@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Check_if_number_is_positive_negative_or_zero {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int number = input.nextInt();
+
+        if (number > 0) {
+            System.out.println("Positive");
+        } else if (number < 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
+
+        input.close();
+    }
+}
