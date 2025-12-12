@@ -1,0 +1,37 @@
+package map;
+
+import java.util.*;
+
+public class AttendenceTracker {
+    public static void main(String[] args) {
+        // Step 1: Initialize students
+        List<String> students = Arrays.asList("Alice", "Bob", "Charlie", "Diana", "Ethan");
+        Map<String, Integer> attendance = new HashMap<>();
+        for (String student : students) {
+            attendance.put(student, 0);
+        }
+
+        // Step 2: Simulate attendance for 15 days
+        Random rand = new Random();
+        for (int day = 1; day <= 15; day++) {
+            System.out.println("Day " + day + " attendance:");
+            List<String> presentToday = new ArrayList<>();
+            for (String student : students) {
+                if (rand.nextBoolean()) { // Randomly mark present
+                    attendance.put(student, attendance.get(student) + 1);
+                    presentToday.add(student);
+                }
+            }
+            System.out.println(presentToday);
+        }
+
+        // Step 3: Print students with attendance below threshold
+        int threshold = 10;
+        System.out.println("\nStudents with fewer than " + threshold + " days of attendance:");
+        for (Map.Entry<String, Integer> entry : attendance.entrySet()) {
+            if (entry.getValue() < threshold) {
+                System.out.println(entry.getKey() + " : " + entry.getValue() + " days");
+            }
+        }
+    }
+}
